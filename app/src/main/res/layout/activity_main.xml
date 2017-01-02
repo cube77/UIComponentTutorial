@@ -10,8 +10,68 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="de.fetim.uicomponenttutorial.MainActivity">
 
-    <TextView
+    <Switch
+        android:text="Switch"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!" />
+        android:id="@+id/switch1"
+        android:layout_marginRight="@dimen/margin"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:text="Name"
+        android:ems="10"
+        android:id="@+id/editText4"
+        android:layout_below="@id/switch1"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="@dimen/margin"
+        android:layout_marginTop="@dimen/margin"
+        android:layout_marginBottom="@dimen/margin"/>
+
+    <Button
+        android:text="Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button"
+        android:layout_below="@+id/editText4"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="@dimen/margin"
+        android:layout_marginTop="@dimen/margin"
+        android:layout_marginBottom="@dimen/margin"/>
+
+    <TextView
+        android:text="Switch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/textView"
+        android:layout_alignBaseline="@id/switch1"
+        android:layout_marginLeft="@dimen/margin"/>
+
+    <TextView
+        android:text="Edit Text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@id/editText4"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="11dp"
+        android:id="@+id/textView2"
+        android:layout_marginLeft="@dimen/margin"/>
+
+    <TextView
+        android:text="Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/button"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="12dp"
+        android:id="@+id/textView3"
+        android:layout_marginLeft="@dimen/margin"/>
+
+
 </RelativeLayout>
