@@ -73,5 +73,27 @@
         android:id="@+id/textView3"
         android:layout_marginLeft="@dimen/margin"/>
 
+    <LinearLayout
+        android:layout_below="@id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true">
+        
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Button1"
+            android:id="@+id/buttonLeft" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Button2"
+            android:id="@+id/buttonRight" />
+        
+    </LinearLayout>
 
 </RelativeLayout>
